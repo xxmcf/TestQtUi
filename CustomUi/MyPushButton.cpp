@@ -1,5 +1,7 @@
 /*
  * @brief   自定义按钮控件，实现按钮的3种基本状态
+ *          原始链接:https://blog.51cto.com/langtuteng/1948720
+ *          在此基础加了鼠标按下和鼠标弹起的处理
  * @author  xiao2macf
  * @version 1.0
  * @date    2020/04/03
