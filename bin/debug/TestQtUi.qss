@@ -1,0 +1,69 @@
+/*通用公共样式--->begin*/
+*
+{
+    font-size: 13px;
+    color: #272727;
+    font-family: "Microsoft YaHei";
+}
+*
+{
+	outline:0px;
+}
+
+QMainWindow#MainWindow{
+background-image: url(:/res/bg2.png);
+}
+
+/*通用弹出窗口*/
+QWidget#CommonPopupDialog
+{
+    border:1px solid #2E2E2E;
+    border-radius:5px;
+    background-color:#3C3C3C;
+}
+
+QLabel#Font16LightLbl
+{
+    font-size:16px;
+    color:#DDDDDD;
+}
+QLabel#Font16LightLbl[bold="true"]
+{
+    font-weight:bold;   
+}
+QLabel#Font16LightLbl:disabled
+{
+    color:#888888; 
+}
+QWidget#TitleBottomHLine
+{
+    background-color: #2E2E2E;
+}
+
+QLabel#msgBoxText
+{
+	font-size:16px;
+    color:#DDDDDD;
+	font-weight:bold;   
+}
+
+QLabel#msgBoxText[bold="true"]
+{
+    font-weight:bold;   
+}
+
+QPushButton#PopupDialogCloseButton
+{
+    background-image: url(:/res/popupDialogCloseBtn.png);
+    background-color: transparent;
+}
+QPushButton#PopupDialogCloseButton:hover
+{
+    background-image: url(:/res/popupDialogCloseBtnHover.png);
+}
+QPushButton#PopupDialogCloseButton:pressed
+{
+    background-image: url(:/res/popupDialogCloseBtnPress.png);
+}
+
+

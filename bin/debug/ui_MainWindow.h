@@ -28,10 +28,8 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(700, 400);
-        MainWindow->setStyleSheet(QLatin1String("QMainWindow{\n"
-"background-color: rgb(255, 170, 127);\n"
-"}"));
+        MainWindow->resize(684, 378);
+        MainWindow->setStyleSheet(QStringLiteral("background-image: url(:/bin/debug/images/bg2.png);"));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         MainWindow->setCentralWidget(centralWidget);

@@ -85,7 +85,10 @@ SOURCES += main.cpp\
     lib/Catch2/include/reporters/catch_reporter_junit.cpp \
     lib/Catch2/include/reporters/catch_reporter_listening.cpp \
     lib/Catch2/include/reporters/catch_reporter_xml.cpp \
-    CustomUi/MyPushButton.cpp
+    CustomUi/MyPushButton.cpp \
+    CustomUi/MyPopupDialog.cpp \
+    CustomUi/BaseMoveDialog.cpp \
+    CustomUi/MyMessagBox.cpp
 
 HEADERS  += MainWindow.h \
     lib/Catch2/include/external/clara.hpp \
@@ -208,9 +211,15 @@ HEADERS  += MainWindow.h \
     lib/Catch2/include/reporters/catch_reporter_xml.h \
     lib/Catch2/include/catch.hpp \
     lib/Catch2/include/catch_with_main.hpp \
-    CustomUi/MyPushButton.h
+    CustomUi/MyPushButton.h \
+    CustomUi/MyPopupDialog.h \
+    CustomUi/BaseMoveDialog.h \
+    CustomUi/MyMessagBox.h
 
 FORMS    += MainWindow.ui
 
-RESOURCES += \
-    TestQtUi.qrc
+RESOURCES +=
+
+TRANSLATIONS = \
+    $$PWD/TestQtUi_en.ts \
+    $$PWD/TestQtUi_zh.ts

@@ -1,5 +1,12 @@
 <RCC>
     <qresource prefix="/">
-        <file>bin/debug/images/bg2.png</file>
+        <file>res/close_btn.png</file>
+        <file>res/popupDialogCloseBtn.png</file>
+        <file>res/popupDialogCloseBtnHover.png</file>
+        <file>res/popupDialogCloseBtnPress.png</file>
+        <file>res/bg2.png</file>
+        <file>res/login_btn_down.png</file>
+        <file>res/login_btn_hover.png</file>
+        <file>res/login_btn_up.png</file>
     </qresource>
 </RCC>
